@@ -23,5 +23,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `Storybook is deployed at: https://${github.event.pull_request.head.ref}-storybook.babo.3o3.co.kr`
+              body: `Storybook is deployed at: https://storybook.babo.3o3.co.kr`
             });
