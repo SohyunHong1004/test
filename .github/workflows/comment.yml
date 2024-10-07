@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Post PR comment with Storybook URL
-        if: github.event.pull_request && github.event.action != 'closed'
+        if: github.event.action != 'closed'
         uses: actions/github-script@v7
         with:
           script: |
